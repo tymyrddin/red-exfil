@@ -5,7 +5,7 @@ Data exfiltration is a non-traditional approach for copying and transferring dat
 attacker's machine. The data exfiltration technique is used to emulate the normal network activities, and
 relies on common network protocols such as DNS, HTTP, SSH, etc.
 
-Data Exfiltration over common protocols is challenging to detect and distinguish between legitimate and malicious
+Data exfiltration over common protocols is challenging to detect and distinguish between legitimate and malicious
 traffic.
 
 .. toctree::

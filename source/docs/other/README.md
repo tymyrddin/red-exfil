@@ -14,7 +14,7 @@ mismatch between outer and inner names.
 
 ## Why?
 
-The options are near-limitless, just as the neglect over decades. Get creative!
+The possibilities are near-endless, just as the neglect over decades. Get creative!
 
 ## How?
 
