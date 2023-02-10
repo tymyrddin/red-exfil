@@ -8,11 +8,13 @@ relies on common network protocols such as DNS, HTTP, SSH, etc.
 Data exfiltration over common protocols is challenging to detect and distinguish between legitimate and malicious
 traffic.
 
+----
+
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: THM Lab
+   :caption: THM lab setup
 
    docs/infra.md
 
@@ -79,8 +81,3 @@ traffic.
    fideliscyber/x509 <https://github.com/fideliscyber/x509>
    PORTKnockOut: Data Exfiltration via Port Knocking over UDP <https://www.sans.org/white-papers/37307/>
    omkartotade/Data-Exfiltration <https://github.com/omkartotade/Data-Exfiltration>
-
-.. toctree::
-   :caption: Links
-
-   Red Team <https://red.tymyrddin.dev/>
