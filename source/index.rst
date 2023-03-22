@@ -1,12 +1,7 @@
 Gathering edibles
 =============================================
 
-Data exfiltration is a non-traditional approach for copying and transferring data from a compromised to an
-attacker's machine. The data exfiltration technique is used to emulate the normal network activities, and
-relies on common network protocols such as DNS, HTTP, SSH, etc.
-
-Data exfiltration over common protocols is challenging to detect and distinguish between legitimate and malicious
-traffic.
+Developing intricate knowledge of plant life and refined technology for gathering edibles in the forest. Data exfiltration is a non-traditional approach for copying and transferring data from a compromised to an attacker's machine.
 
 ----
 
@@ -22,61 +17,15 @@ traffic.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: TCP
+   :caption: THM Labs
 
-   docs/tcp/README.md
-   docs/tcp/exfil.md
+   docs/thm/README.md
+   docs/thm/tcp.md
+   docs/thm/ssh.md
+   docs/thm/https.md
+   docs/thm/https-tunnel.md
+   docs/thm/icmp.md
+   docs/thm/icmp-c2.md
+   docs/thm/dns.md
+   docs/thm/dns-tunnel.md
 
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: SSH
-
-   docs/ssh/README.md
-   docs/ssh/exfil.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: HTTP(S)
-
-   docs/https/README.md
-   docs/https/exfil.md
-   docs/https/tunnel.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: ICMP
-
-   docs/icmp/README.md
-   docs/icmp/exfil.md
-   docs/icmp/c2.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: DNS
-
-   docs/dns/README.md
-   docs/dns/conf.md
-   docs/dns/exfil.md
-   docs/dns/tunnel.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Other ways
-
-   docs/other/README.md
-   Data Exfiltration With Tor Browser And Domain Fronting <https://blog.didierstevens.com/2018/01/20/quickpost-data-exfiltration-with-tor-browser-and-domain-fronting/>
-   Skype and Data Exfiltration <https://www.sans.org/white-papers/34560/>
-   pentestpartners/PTP-RAT <https://github.com/pentestpartners/PTP-RAT>
-   fideliscyber/x509 <https://github.com/fideliscyber/x509>
-   PORTKnockOut: Data Exfiltration via Port Knocking over UDP <https://www.sans.org/white-papers/37307/>
-   omkartotade/Data-Exfiltration <https://github.com/omkartotade/Data-Exfiltration>

@@ -1,4 +1,12 @@
-# HTTP data exfiltration
+# Data exfiltration over HTTP
+
+It is challenging to detect for the blue team if using the POST HTTP method in the data exfiltration (with the GET 
+request, all parameters are registered into the log file).
+
+* POST requests are never cached
+* POST requests do not remain in the browser history
+* POST requests cannot be bookmarked
+* POST requests have no restrictions on data length
 
 To exfiltrate data over the HTTP protocol:
 

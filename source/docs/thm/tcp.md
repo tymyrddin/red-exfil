@@ -1,5 +1,7 @@
 # Exfiltration using TCP socket
 
+Exfiltration over TCP is unlikely to work, but try raw TCP sockets.
+
 Using the TCP socket is one of the data exfiltration techniques that can be used in a non-secured environment 
 where there are no network-based security products (to speak of, as far as we know). This kind of exfiltration 
 is easy to detect because it relies on non-standard protocols. One of the benefits of this technique is that it 

@@ -1,4 +1,8 @@
-# Exfiltration using SSH
+# Exfiltration using FTP/SSH/SCP/SFTP
+
+FTP/SSH/SCP/SFTP might be permitted outbound, or at least most likely will be from some locations as they’re often 
+used as data exchange protocols. Client tools are also readily available on systems without the need to pull down 
+additional binaries.
 
 The SSH protocol establishes a secure channel to interact and move data between the client and server. All transmission 
 data is encrypted over the network or the Internet. To transfer data over SSH, use either the Secure Copy Protocol

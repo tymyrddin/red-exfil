@@ -1,10 +1,18 @@
 # Exfiltration over DNS
 
+Since `DNS` is not a transport protocol, many organisations do not regularly monitor the DNS protocol. 
+The `DNS` protocol is allowed in almost all firewalls in any organisational network, although good organisations 
+will have monitoring in place to detect it afterwards. The fabulous `dnscat2` is very easy to get up and running.
+
+Some IDS/IDPs are now capable of spotting DNS tunnelling, but often miss data sent via DNS TXT records. Re-useful tools
+are [Uninvited-Guest](https://github.com/pentestpartners/Uninvited-Guest), and its earlier, more raw version 
+[DNSTXT-encoder](https://github.com/pentestpartners/DNSTXT-encoder).
+
 There are many use case scenarios, but the typical one is when the firewall blocks and filters all traffic. We can 
 pass data or `TCP/UDP` packets through a firewall using the `DNS` protocol, but it is important to ensure that the 
 `DNS` is allowed and resolving domain names to IP addresses.
 
-* An attacker registers a domain name, for example, [tunnel.com](conf.md) 
+* An attacker registers a domain name, for example, [tunnel.com](red-testlab:docs/exfiltration/thm-conf) 
 * The attacker sets up tunnel.com's NS record points to a server that the attacker controls.
 * The malware or the attacker sends sensitive data from a victim machine to a domain name they control—for example, passw0rd.tunnel.com, where passw0rd is the data that needs to be transferred.
 * The `DNS` request is sent through the local `DNS` server and is forwarded through the Internet.

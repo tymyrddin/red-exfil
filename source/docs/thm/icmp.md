@@ -1,4 +1,4 @@
-# ICMP Data Exfiltration
+# Data exfiltration over ICMP
 
 Using Metasploit `auxiliary/server/icmp_exfil`:
 
