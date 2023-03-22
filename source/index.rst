@@ -76,7 +76,6 @@ traffic.
    docs/other/README.md
    Data Exfiltration With Tor Browser And Domain Fronting <https://blog.didierstevens.com/2018/01/20/quickpost-data-exfiltration-with-tor-browser-and-domain-fronting/>
    Skype and Data Exfiltration <https://www.sans.org/white-papers/34560/>
-   PyExfil – Python Data Exfiltration Tools <https://www.darknet.org.uk/2016/11/pyexfil-python-data-exfiltration-tools/>
    pentestpartners/PTP-RAT <https://github.com/pentestpartners/PTP-RAT>
    fideliscyber/x509 <https://github.com/fideliscyber/x509>
    PORTKnockOut: Data Exfiltration via Port Knocking over UDP <https://www.sans.org/white-papers/37307/>
