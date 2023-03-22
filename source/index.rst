@@ -1,4 +1,4 @@
-Data exfiltration
+Gathering edibles
 =============================================
 
 Data exfiltration is a non-traditional approach for copying and transferring data from a compromised to an
@@ -14,9 +14,9 @@ traffic.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: THM lab setup
+   :caption: Preparation
 
-   docs/infra.md
+   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/exfiltration/README.html>
 
 .. toctree::
    :glob:
