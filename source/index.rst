@@ -32,3 +32,7 @@ Developing intricate knowledge of plant life and refined technology for gatherin
    docs/thm/dns.md
    docs/thm/dns-tunnel.md
 
+----
+
+.. image:: _static/images/http-tunnel.png
+  :alt: HTTP Tunnel
