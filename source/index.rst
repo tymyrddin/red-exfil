@@ -1,7 +1,7 @@
 Gathering edibles
 =============================================
 
-Developing intricate knowledge of plant life and refined technology for gathering edibles in the forest. Data exfiltration is a non-traditional approach for copying and transferring data from a compromised to an attacker's machine.
+Developing intricate knowledge of plant life and refined technology for gathering edibles in the forest. Non-traditional approaches for copying and transferring data from a compromised to an attacker's machine.
 
 .. image:: _static/images/in-progress.png
   :alt: Forever in progress ...
@@ -20,7 +20,7 @@ Developing intricate knowledge of plant life and refined technology for gatherin
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: THM Labs
+   :caption: Over common protocols
 
    docs/thm/README.md
    docs/thm/tcp.md
