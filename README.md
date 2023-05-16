@@ -3,7 +3,7 @@
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
-[![Documentation Status](https://readthedocs.org/projects/red-exfil/badge/?version=latest)](https://red.tymyrddin.dev/projects/exfil/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/73d86c2e-d3d5-4ff7-8eeb-b7afe99e1be8/deploy-status)](https://app.netlify.com/sites/ornate-toffee-28327d/deploys)
 
 ## Requirements
 
