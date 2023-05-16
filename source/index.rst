@@ -12,9 +12,9 @@ Developing intricate knowledge of plant life and refined technology for gatherin
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Preparation
+   :caption: Testlab
 
-   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/exfiltration/README.html>
+   Exfiltration tools <https://testlab.tymyrddin.dev/docs/exfiltration/README>
 
 .. toctree::
    :glob:

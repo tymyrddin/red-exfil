@@ -78,9 +78,9 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "red-network": ("https://red.tymyrddin.dev/projects/network/en/latest/", None),
-    "red-iac": ("https://red.tymyrddin.dev/projects/iac/en/latest/", None),
-    "red-ad": ("https://red.tymyrddin.dev/projects/ad/en/latest/", None),
-    "red-testlab": ("https://red.tymyrddin.dev/projects/testlab/en/latest/", None),
+    "red-network": ("https://network.tymyrddin.dev/", None),
+    "red-iac": ("https://iac.tymyrddin.dev/", None),
+    "red-ad": ("https://ad.tymyrddin.dev/", None),
+    "red-testlab": ("https://testlab.tymyrddin.dev/", None),
 }
 myst_url_schemes = ["http", "https", ]
